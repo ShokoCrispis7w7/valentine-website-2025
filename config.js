@@ -14,15 +14,15 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['💖', '💖', '💖', '💖', '💖'],  // Heart emojis
+        bears: ['✨', '✨']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Querida Daira, quieres ser mi San Valentin?",                                    // First interaction
+            text: "Querida Daira",                                    // First interaction
             yesBtn: "Si",                                             // Text for "Yes" button
             noBtn: "No 💔",                                               // Text for "No" button
             secretAnswer: "No... lo dudes❤️"           // Secret hover message
