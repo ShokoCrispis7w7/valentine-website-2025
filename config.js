@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Con mucho cariño,",
-        message: "Espero poder verte pronto, aprovechare la ocasion.",
+        message: "Espero verte pronto",
         emojis: "Juan j"  // These will bounce around
     },
 
