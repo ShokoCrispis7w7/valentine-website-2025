@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💖', '💖', '💖', '💖'],  // Heart emojis
+        hearts: ['💖', '💖', '💖'],  // Heart emojis
         bears: ['✨', '✨']                       // Cute bear emojis
     },
 
@@ -67,10 +67,10 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "20s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDuration: "25s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "30px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.8s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.0         // Size of heart explosion effect (1.2-2.0 recommended)
+        bounceSpeed: "1.0s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        heartExplosionSize: 0.8         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dimyef3if/raw/upload/v1771049939/sgNkCrAhTGc_e6ebty", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 1.0                        // Volume level (0.0 to 1.0)
