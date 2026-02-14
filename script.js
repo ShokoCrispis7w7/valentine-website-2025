@@ -44,7 +44,7 @@ function getDefaultColor(key) {
         backgroundStart: "#ffafbd",
         backgroundEnd: "#ffc3a0",
         buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
+        buttonHover: "#e55050",
         textColor: "#ff4757"
     };
     return defaults[key];
@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
     validateConfig();
 
     // Set texts from config
-    document.getElementById('valentineTitle').textContent = `${config.valentineName}, my love...`;
+    document.getElementById('valentineTitle').textContent = `${config.valentineName}, ...`;
     
     // Set first question texts
     document.getElementById('question1Text').textContent = config.questions.first.text;
